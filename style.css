@@ -22,9 +22,29 @@ body {
   box-sizing: border-box;
 }
 
-.header {
-  padding: 2rem 0;
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.navbar .navbar-content {
+  margin: auto;
+  max-width: 1080px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   box-sizing: border-box;
+}
+
+.navbar .navbar-content h1 {
+  font-size: var(--title-size);
+}
+
+.navbar .navbar-content img {
+  width: 25px;
 }
 
 .list-surah {
@@ -83,7 +103,7 @@ body {
 
 .ayat-item .ayat {
   text-align: right;
-  font-size: var(--title-size);
+  font-size: calc(var(--title-size) + 2px);
   margin-bottom: 20px;
 }
 
@@ -134,4 +154,11 @@ body {
 
 .info-surah div small {
   font-size: calc(var(--body-size) - 4px);
+}
+
+@media (max-width: 600px) {
+  :root {
+    --title-size: 22px;
+    --body-size: 13px;
+  } 
 }
