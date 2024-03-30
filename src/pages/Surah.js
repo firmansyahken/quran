@@ -1,8 +1,10 @@
+import { ScrollToTop } from "../utils/ScrollToTop.js";
 import "../components/AyatItem.js";
 
 export default class Surah {
   constructor(id) {
     this.uid = id;
+    ScrollToTop()
   }
 
   async fetchData() {
