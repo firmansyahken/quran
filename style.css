@@ -59,10 +59,7 @@ body {
 
 .list-item small {
   font-size: calc(var(--body-size) - 2px);
-}
-
-.list-item span {
-  font-size: var(--body-size);
+  color: var(--secondary-color);
 }
 
 .ayat-surah {

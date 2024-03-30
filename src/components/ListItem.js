@@ -36,7 +36,7 @@ class ListItem extends HTMLElement {
                     </div>
                 </div>
                 <div>
-                    <span>${this.ayat}</span>
+                    <p>${this.ayat}</p>
                     <small>${this.category}</small>
                 </div>
             </div>
