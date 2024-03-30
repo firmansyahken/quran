@@ -1,9 +1,8 @@
 import "../components/ListItem.js"
 import Surah from "../assets/data/surah.json"
 
-export class Home {
+export default class Home {
     constructor() {
-        console.log(Surah);
     }
 
     async render() {

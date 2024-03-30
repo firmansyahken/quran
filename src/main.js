@@ -1,6 +1,6 @@
 import Router from "./utils/RouterHandler.js"
-import { Home } from "./pages/Home.js"
-import { Surah } from "./pages/Surah.js"
+import Home from "./pages/Home.js"
+import Surah from "./pages/Surah.js"
 
 const routes = {
   "/": {
@@ -13,4 +13,4 @@ const routes = {
   }
 }
 
-const route = new Router(routes)
+export const route = new Router(routes)

@@ -1,4 +1,6 @@
-export class ListItem extends HTMLElement {
+import { Navigate } from "../utils/Navigate.js"
+
+class ListItem extends HTMLElement {
     constructor() {
         super()
         this.no = ""
@@ -6,6 +8,7 @@ export class ListItem extends HTMLElement {
         this.nameIndo = ""
         this.category = ""
         this.ayat = ""
+        this.handleNav = this.handleNav.bind(this)
     }
     
     connectedCallback() {
@@ -17,8 +20,13 @@ export class ListItem extends HTMLElement {
         this.render()
     }
 
+    handleNav() {
+        let path = `#surah/${this.no}`
+        Navigate(path)
+    }
+
     render() {
-        return this.innerHTML = `
+        this.innerHTML = `
             <div class="list-item">
                 <div>
                     <p>${this.no}</p>
@@ -33,6 +41,7 @@ export class ListItem extends HTMLElement {
                 </div>
             </div>
         `
+        this.querySelector(".list-item").addEventListener("click", this.handleNav)
     }
 }
 
