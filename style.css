@@ -156,6 +156,22 @@ body {
   font-size: calc(var(--body-size) - 4px);
 }
 
+.footer {
+  border-top: 1px solid var(--border-color);
+}
+
+.footer .footer-content {
+  padding: 4rem 1.5rem;
+  box-sizing: border-box;
+  max-width: 1080px;
+  margin: auto;
+  font-size: var(--body-size);
+}
+
+.footer .footer-content a {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 600px) {
   :root {
     --title-size: 22px;

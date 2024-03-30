@@ -1,5 +1,6 @@
 import "../components/ListItem.js";
 import "../components/Navbar.js";
+import "../components/Footer.js";
 import Surah from "../assets/data/surah.json";
 
 export default class Home {
@@ -26,6 +27,7 @@ export default class Home {
                     .join("")}
             </div>
         </div>
+        <footer-component></footer-component>
     `;
   }
 }
