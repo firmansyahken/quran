@@ -1,10 +1,18 @@
+:root {
+  --title-size: 24px;
+  --header-size: 20px;
+  --body-size: 15px;
+  --border-color: rgb(226 232 240);
+  --secondary-color: rgb(100 116 139);
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-
+  font-family: sans-serif;
 }
 
 .wrapper {
@@ -14,22 +22,119 @@ body {
   box-sizing: border-box;
 }
 
+.header {
+  padding: 2rem 0;
+  box-sizing: border-box;
+}
+
+.list-surah {
+  padding-bottom: 4rem;
+  box-sizing: border-box;
+}
+
 .list-item {
   padding: 20px 20px;
   box-sizing: border-box;
-  border: 1px solid #d5d5d5;
+  border: 1px solid var(--border-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.list-item > div:nth-child(1) {
+.list-item>div:nth-child(1) {
   display: flex;
   column-gap: 10px;
 }
 
-.list-item > div:nth-child(2) {
+.list-item>div:nth-child(2) {
   display: flex;
   flex-direction: column;
   align-items: end;
+}
+
+.list-item p {
+  font-size: var(--body-size);
+  font-weight: 600;
+}
+
+.list-item small {
+  font-size: calc(var(--body-size) - 2px);
+}
+
+.list-item span {
+  font-size: var(--body-size);
+}
+
+.ayat-surah {
+  display: grid;
+  row-gap: 20px;
+  padding: 2rem 0;
+}
+
+.ayat-item {
+  padding: 1rem 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.ayat-item div {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  align-items: baseline;
+}
+
+.ayat-item .ayat {
+  text-align: right;
+  font-size: var(--title-size);
+  margin-bottom: 20px;
+}
+
+.ayat-item .no {
+  font-size: calc(var(--body-size) - 4px);
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 30px;
+  color: white;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.ayat-item .indonesian {
+  font-size: var(--body-size);
+  color: var(--secondary-color);
+  font-weight: normal;
+}
+
+.info-surah {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  display: grid;
+  padding: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.info-surah p {
+  font-size: calc(var(--body-size) - 2px);
+}
+
+.info-surah p:nth-child(2) {
+  font-weight: bold;
+  font-size: var(--body-size);
+}
+
+.info-surah div {
+  text-align: center;
+}
+
+.info-surah div small {
+  font-size: calc(var(--body-size) - 4px);
 }
