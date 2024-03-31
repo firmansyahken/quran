@@ -5,18 +5,18 @@ import "../components/AyatItem.js";
 export default class Surah {
   constructor(id) {
     this.uid = id;
-    ScrollToTop()
   }
-
+  
   async fetchData() {
     const getData = await fetch(`${BASE_URL}/data/${this.uid}.json`);
     const response = await getData.json();
     document.title = response[`${this.uid}`].name_latin
     return response;
   }
-
+  
   async render() {
     const data = await this.fetchData();
+    ScrollToTop()
     let template = "";
 
     Object.keys(data[`${this.uid}`].text).forEach(
