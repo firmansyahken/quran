@@ -1,7 +1,7 @@
 import "../components/ListItem.js";
 import "../components/Navbar.js";
 import "../components/Footer.js";
-import Surah from "../assets/data/surah.json";
+import Surah from "../../public/data/surah.json";
 
 export default class Home {
   constructor() {

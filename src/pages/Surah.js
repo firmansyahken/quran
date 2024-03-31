@@ -1,4 +1,5 @@
 import { ScrollToTop } from "../utils/ScrollToTop.js";
+import { BASE_URL } from "../utils/Constant.js";
 import "../components/AyatItem.js";
 
 export default class Surah {
@@ -8,7 +9,7 @@ export default class Surah {
   }
 
   async fetchData() {
-    const getData = await fetch(`/src/assets/data/${this.uid}.json`);
+    const getData = await fetch(`${BASE_URL}/data/${this.uid}.json`);
     const response = await getData.json();
     document.title = response[`${this.uid}`].name_latin
     return response;
