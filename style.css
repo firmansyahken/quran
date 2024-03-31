@@ -128,15 +128,15 @@ body {
 
 .ayat-item .no {
   font-size: calc(var(--body-size) - 4px);
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 24px;
-  min-height: 30px;
-  color: white;
+  min-width: 28px;
+  min-height: 38px;
   font-weight: bold;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-image: url("./src/assets/icon/border.svg");
+  background-position: center;
+  background-size: cover;
 }
 
 .ayat-item .indonesian {
