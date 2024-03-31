@@ -58,7 +58,7 @@ body {
 }
 
 .list-surah {
-  padding-bottom: 4rem;
+  padding: 1rem 0 4rem 0;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
