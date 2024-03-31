@@ -120,7 +120,7 @@ body {
   text-align: right;
   font-size: calc(var(--title-size) + 2px);
   margin-bottom: 20px;
-  line-height: 48px;
+  line-height: 70px;
   font-family: LPMQ, "Traditional Arabic", Tahoma, sans-serif;
   font-weight: normal;
   direction: rtl;
@@ -210,5 +210,9 @@ body {
 
   .list-surah {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ayat-item .ayat {
+    line-height: 50px;
   }
 }

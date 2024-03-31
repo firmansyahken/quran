@@ -22,6 +22,7 @@ export default class Surah {
         (template += `
         <ayat-item 
           uid="${this.uid}"
+          surah="${data[`${this.uid}`].name_latin}"
           ayat="${data[`${this.uid}`].text[key]}"
           no="${key}"
           indonesian="${data[`${this.uid}`].translations['id'].text[key]}"> 
