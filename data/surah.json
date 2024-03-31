@@ -1,0 +1,802 @@
+{
+    "surahs": [
+        {
+            "nomor": 1,
+            "nama": "Al-Fatihah",
+            "namaIndonesia": "Pembukaan",
+            "jenisWahyu": "Mekah",
+            "ayat": 7
+        },
+        {
+            "nomor": 2,
+            "nama": "Al-Baqarah",
+            "namaIndonesia": "Sapi Betina",
+            "jenisWahyu": "Madinah",
+            "ayat": 286
+        },
+        {
+            "nomor": 3,
+            "nama": "Ali 'Imran",
+            "namaIndonesia": "Keluarga Imran",
+            "jenisWahyu": "Madinah",
+            "ayat": 200
+        },
+        {
+            "nomor": 4,
+            "nama": "An-Nisa'",
+            "namaIndonesia": "Wanita",
+            "jenisWahyu": "Madinah",
+            "ayat": 176
+        },
+        {
+            "nomor": 5,
+            "nama": "Al-Ma'idah",
+            "namaIndonesia": "Jamuan",
+            "jenisWahyu": "Madinah",
+            "ayat": 120
+        },
+        {
+            "nomor": 6,
+            "nama": "Al-An'am",
+            "namaIndonesia": "Binatang Ternak",
+            "jenisWahyu": "Mekah",
+            "ayat": 165
+        },
+        {
+            "nomor": 7,
+            "nama": "Al-A'raf",
+            "namaIndonesia": "Tempat Tertinggi",
+            "jenisWahyu": "Mekah",
+            "ayat": 206
+        },
+        {
+            "nomor": 8,
+            "nama": "Al-Anfal",
+            "namaIndonesia": "Rampasan Perang",
+            "jenisWahyu": "Madinah",
+            "ayat": 75
+        },
+        {
+            "nomor": 9,
+            "nama": "At-Taubah",
+            "namaIndonesia": "Pengampunan",
+            "jenisWahyu": "Madinah",
+            "ayat": 129
+        },
+        {
+            "nomor": 10,
+            "nama": "Yunus",
+            "namaIndonesia": "Yunus",
+            "jenisWahyu": "Mekah",
+            "ayat": 109
+        },
+        {
+            "nomor": 11,
+            "nama": "Hud",
+            "namaIndonesia": "Hud",
+            "jenisWahyu": "Mekah",
+            "ayat": 123
+        },
+        {
+            "nomor": 12,
+            "nama": "Yusuf",
+            "namaIndonesia": "Yusuf",
+            "jenisWahyu": "Mekah",
+            "ayat": 111
+        },
+        {
+            "nomor": 13,
+            "nama": "Ar-Ra'd",
+            "namaIndonesia": "Guruh",
+            "jenisWahyu": "Mekah",
+            "ayat": 43
+        },
+        {
+            "nomor": 14,
+            "nama": "Ibrahim",
+            "namaIndonesia": "Ibrahim",
+            "jenisWahyu": "Mekah",
+            "ayat": 52
+        },
+        {
+            "nomor": 15,
+            "nama": "Al-Hijr",
+            "namaIndonesia": "Al Hijr",
+            "jenisWahyu": "Mekah",
+            "ayat": 99
+        },
+        {
+            "nomor": 16,
+            "nama": "An-Nahl",
+            "namaIndonesia": "Lebah",
+            "jenisWahyu": "Mekah",
+            "ayat": 128
+        },
+        {
+            "nomor": 17,
+            "nama": "Al-Isra'",
+            "namaIndonesia": "Isra",
+            "jenisWahyu": "Mekah",
+            "ayat": 111
+        },
+        {
+            "nomor": 18,
+            "nama": "Al-Kahfi",
+            "namaIndonesia": "Guha",
+            "jenisWahyu": "Mekah",
+            "ayat": 110
+        },
+        {
+            "nomor": 19,
+            "nama": "Maryam",
+            "namaIndonesia": "Maryam",
+            "jenisWahyu": "Mekah",
+            "ayat": 98
+        },
+        {
+            "nomor": 20,
+            "nama": "Ta-Ha",
+            "namaIndonesia": "Ta Ha",
+            "jenisWahyu": "Mekah",
+            "ayat": 135
+        },
+        {
+            "nomor": 21,
+            "nama": "Al-Anbiya'",
+            "namaIndonesia": "Para Nabi",
+            "jenisWahyu": "Mekah",
+            "ayat": 112
+        },
+        {
+            "nomor": 22,
+            "nama": "Al-Hajj",
+            "namaIndonesia": "Haji",
+            "jenisWahyu": "Madinah",
+            "ayat": 78
+        },
+        {
+            "nomor": 23,
+            "nama": "Al-Mu'minun",
+            "namaIndonesia": "Orang-Orang Mukmin",
+            "jenisWahyu": "Mekah",
+            "ayat": 118
+        },
+        {
+            "nomor": 24,
+            "nama": "An-Nur",
+            "namaIndonesia": "Cahaya",
+            "jenisWahyu": "Madinah",
+            "ayat": 64
+        },
+        {
+            "nomor": 25,
+            "nama": "Al-Furqan",
+            "namaIndonesia": "Pembeda",
+            "jenisWahyu": "Mekah",
+            "ayat": 77
+        },
+        {
+            "nomor": 26,
+            "nama": "Asy-Syu'ara'",
+            "namaIndonesia": "Penyair",
+            "jenisWahyu": "Mekah",
+            "ayat": 227
+        },
+        {
+            "nomor": 27,
+            "nama": "An-Naml",
+            "namaIndonesia": "Semut",
+            "jenisWahyu": "Mekah",
+            "ayat": 93
+        },
+        {
+            "nomor": 28,
+            "nama": "Al-Qasas",
+            "namaIndonesia": "Kisah",
+            "jenisWahyu": "Mekah",
+            "ayat": 88
+        },
+        {
+            "nomor": 29,
+            "nama": "Al-'Ankabut",
+            "namaIndonesia": "Laba-Laba",
+            "jenisWahyu": "Mekah",
+            "ayat": 69
+        },
+        {
+            "nomor": 30,
+            "nama": "Ar-Rum",
+            "namaIndonesia": "Romawi",
+            "jenisWahyu": "Mekah",
+            "ayat": 60
+        },
+        {
+            "nomor": 31,
+            "nama": "Luqman",
+            "namaIndonesia": "Luqman",
+            "jenisWahyu": "Mekah",
+            "ayat": 34
+        },
+        {
+            "nomor": 32,
+            "nama": "As-Sajdah",
+            "namaIndonesia": "Sajdah",
+            "jenisWahyu": "Mekah",
+            "ayat": 30
+        },
+        {
+            "nomor": 33,
+            "nama": "Al-Ahzab",
+            "namaIndonesia": "Golongan Yang Bersekutu",
+            "jenisWahyu": "Madinah",
+            "ayat": 73
+        },
+        {
+            "nomor": 34,
+            "nama": "Saba'",
+            "namaIndonesia": "Saba",
+            "jenisWahyu": "Mekah",
+            "ayat": 54
+        },
+        {
+            "nomor": 35,
+            "nama": "Fatir",
+            "namaIndonesia": "Pencipta",
+            "jenisWahyu": "Mekah",
+            "ayat": 45
+        },
+        {
+            "nomor": 36,
+            "nama": "Ya-Sin",
+            "namaIndonesia": "Yasin",
+            "jenisWahyu": "Mekah",
+            "ayat": 83
+        },
+        {
+            "nomor": 37,
+            "nama": "As-Saffat",
+            "namaIndonesia": "Barisan-Barisan",
+            "jenisWahyu": "Mekah",
+            "ayat": 182
+        },
+        {
+            "nomor": 38,
+            "nama": "Sad",
+            "namaIndonesia": "Sad",
+            "jenisWahyu": "Mekah",
+            "ayat": 88
+        },
+        {
+            "nomor": 39,
+            "nama": "Az-Zumar",
+            "namaIndonesia": "Rombongan",
+            "jenisWahyu": "Mekah",
+            "ayat": 75
+        },
+        {
+            "nomor": 40,
+            "nama": "Gafir",
+            "namaIndonesia": "Pengampun",
+            "jenisWahyu": "Mekah",
+            "ayat": 85
+        },
+        {
+            "nomor": 41,
+            "nama": "Fussilat",
+            "namaIndonesia": "Dijelaskan",
+            "jenisWahyu": "Mekah",
+            "ayat": 54
+        },
+        {
+            "nomor": 42,
+            "nama": "Asy-Syura",
+            "namaIndonesia": "Musyawarah",
+            "jenisWahyu": "Mekah",
+            "ayat": 53
+        },
+        {
+            "nomor": 43,
+            "nama": "Az-Zukhruf",
+            "namaIndonesia": "Perhiasan Emas",
+            "jenisWahyu": "Mekah",
+            "ayat": 89
+        },
+        {
+            "nomor": 44,
+            "nama": "Ad-Dukhan",
+            "namaIndonesia": "Kabut",
+            "jenisWahyu": "Mekah",
+            "ayat": 59
+        },
+        {
+            "nomor": 45,
+            "nama": "Al-Jasiyah",
+            "namaIndonesia": "Yang Sombong",
+            "jenisWahyu": "Mekah",
+            "ayat": 37
+        },
+        {
+            "nomor": 46,
+            "nama": "Al-Ahqaf",
+            "namaIndonesia": "Bukit-Bukit Pasir",
+            "jenisWahyu": "Mekah",
+            "ayat": 35
+        },
+        {
+            "nomor": 47,
+            "nama": "Muhammad",
+            "namaIndonesia": "Muhammad",
+            "jenisWahyu": "Madinah",
+            "ayat": 38
+        },
+        {
+            "nomor": 48,
+            "nama": "Al-Fath",
+            "namaIndonesia": "Kemenangan",
+            "jenisWahyu": "Madinah",
+            "ayat": 29
+        },
+        {
+            "nomor": 49,
+            "nama": "Al-Hujurat",
+            "namaIndonesia": "Kamar-Kamar",
+            "jenisWahyu": "Madinah",
+            "ayat": 18
+        },
+        {
+            "nomor": 50,
+            "nama": "Qaf",
+            "namaIndonesia": "Qaf",
+            "jenisWahyu": "Mekah",
+            "ayat": 45
+        },
+        {
+            "nomor": 51,
+            "nama": "Adz-Dzariyat",
+            "namaIndonesia": "Angin yang Menerbangkan",
+            "jenisWahyu": "Mekah",
+            "ayat": 60
+        },
+        {
+            "nomor": 52,
+            "nama": "At-Tur",
+            "namaIndonesia": "Bukit",
+            "jenisWahyu": "Mekah",
+            "ayat": 49
+        },
+        {
+            "nomor": 53,
+            "nama": "An-Najm",
+            "namaIndonesia": "Bintang",
+            "jenisWahyu": "Mekah",
+            "ayat": 62
+        },
+        {
+            "nomor": 54,
+            "nama": "Al-Qamar",
+            "namaIndonesia": "Bulan",
+            "jenisWahyu": "Mekah",
+            "ayat": 55
+        },
+        {
+            "nomor": 55,
+            "nama": "Ar-Rahman",
+            "namaIndonesia": "Yang Pemurah",
+            "jenisWahyu": "Madinah",
+            "ayat": 78
+        },
+        {
+            "nomor": 56,
+            "nama": "Al-Waqi'ah",
+            "namaIndonesia": "Hari Kiamat",
+            "jenisWahyu": "Mekah",
+            "ayat": 96
+        },
+        {
+            "nomor": 57,
+            "nama": "Al-Hadid",
+            "namaIndonesia": "Besi",
+            "jenisWahyu": "Madinah",
+            "ayat": 29
+        },
+        {
+            "nomor": 58,
+            "nama": "Al-Mujadilah",
+            "namaIndonesia": "Wanita yang Mengajukan Gugatan",
+            "jenisWahyu": "Madinah",
+            "ayat": 22
+        },
+        {
+            "nomor": 59,
+            "nama": "Al-Hasyr",
+            "namaIndonesia": "Pengusiran",
+            "jenisWahyu": "Madinah",
+            "ayat": 24
+        },
+        {
+            "nomor": 60,
+            "nama": "Al-Mumtahanah",
+            "namaIndonesia": "Wanita yang Diuji",
+            "jenisWahyu": "Madinah",
+            "ayat": 13
+        },
+        {
+            "nomor": 61,
+            "nama": "As-Saff",
+            "namaIndonesia": "Barisan",
+            "jenisWahyu": "Madinah",
+            "ayat": 14
+        },
+        {
+            "nomor": 62,
+            "nama": "Al-Jumu'ah",
+            "namaIndonesia": "Hari Jumat",
+            "jenisWahyu": "Madinah",
+            "ayat": 11
+        },
+        {
+            "nomor": 63,
+            "nama": "Al-Munafiqun",
+            "namaIndonesia": "Orang-Orang Munafik",
+            "jenisWahyu": "Madinah",
+            "ayat": 11
+        },
+        {
+            "nomor": 64,
+            "nama": "At-Taghabun",
+            "namaIndonesia": "Keharusan",
+            "jenisWahyu": "Madinah",
+            "ayat": 18
+        },
+        {
+            "nomor": 65,
+            "nama": "At-Talaq",
+            "namaIndonesia": "Perceraian",
+            "jenisWahyu": "Madinah",
+            "ayat": 12
+        },
+        {
+            "nomor": 66,
+            "nama": "At-Tahrim",
+            "namaIndonesia": "Mengharamkan",
+            "jenisWahyu": "Madinah",
+            "ayat": 12
+        },
+        {
+            "nomor": 67,
+            "nama": "Al-Mulk",
+            "namaIndonesia": "Kerajaan",
+            "jenisWahyu": "Mekah",
+            "ayat": 30
+        },
+        {
+            "nomor": 68,
+            "nama": "Al-Qalam",
+            "namaIndonesia": "Pena",
+            "jenisWahyu": "Mekah",
+            "ayat": 52
+        },
+        {
+            "nomor": 69,
+            "nama": "Al-Haqqah",
+            "namaIndonesia": "Hari Kiamat",
+            "jenisWahyu": "Mekah",
+            "ayat": 52
+        },
+        {
+            "nomor": 70,
+            "nama": "Al-Ma'arij",
+            "namaIndonesia": "Tempat Tempat Naik",
+            "jenisWahyu": "Mekah",
+            "ayat": 44
+        },
+        {
+            "nomor": 71,
+            "nama": "Nuh",
+            "namaIndonesia": "Nuh",
+            "jenisWahyu": "Mekah",
+            "ayat": 28
+        },
+        {
+            "nomor": 72,
+            "nama": "Al-Jinn",
+            "namaIndonesia": "Jin",
+            "jenisWahyu": "Mekah",
+            "ayat": 28
+        },
+        {
+            "nomor": 73,
+            "nama": "Al-Muzzammil",
+            "namaIndonesia": "Orang Yang Berselimut",
+            "jenisWahyu": "Mekah",
+            "ayat": 20
+        },
+        {
+            "nomor": 74,
+            "nama": "Al-Muddatstsir",
+            "namaIndonesia": "Orang Yang Berkemul",
+            "jenisWahyu": "Mekah",
+            "ayat": 56
+        },
+        {
+            "nomor": 75,
+            "nama": "Al-Qiyamah",
+            "namaIndonesia": "Hari Kiamat",
+            "jenisWahyu": "Mekah",
+            "ayat": 40
+        },
+        {
+            "nomor": 76,
+            "nama": "Al-Insan",
+            "namaIndonesia": "Manusia",
+            "jenisWahyu": "Madinah",
+            "ayat": 31
+        },
+        {
+            "nomor": 77,
+            "nama": "Al-Mursalat",
+            "namaIndonesia": "Malaikat Yang Diutus",
+            "jenisWahyu": "Mekah",
+            "ayat": 50
+        },
+        {
+            "nomor": 78,
+            "nama": "An-Naba'",
+            "namaIndonesia": "Berita Besar",
+            "jenisWahyu": "Mekah",
+            "ayat": 40
+        },
+        {
+            "nomor": 79,
+            "nama": "An-Nazi'at",
+            "namaIndonesia": "Malaikat Yang Mencabut",
+            "jenisWahyu": "Mekah",
+            "ayat": 46
+        },
+        {
+            "nomor": 80,
+            "nama": "Abasa",
+            "namaIndonesia": "Ia Bermuka Masam",
+            "jenisWahyu": "Mekah",
+            "ayat": 42
+        },
+        {
+            "nomor": 81,
+            "nama": "At-Takwir",
+            "namaIndonesia": "Menggulung",
+            "jenisWahyu": "Mekah",
+            "ayat": 29
+        },
+        {
+            "nomor": 82,
+            "nama": "Al-Infithar",
+            "namaIndonesia": "Terbelah",
+            "jenisWahyu": "Mekah",
+            "ayat": 19
+        },
+        {
+            "nomor": 83,
+            "nama": "Al-Muthaffifin",
+            "namaIndonesia": "Orang-Orang Curang",
+            "jenisWahyu": "Mekah",
+            "ayat": 36
+        },
+        {
+            "nomor": 84,
+            "nama": "Al-Insyiqaq",
+            "namaIndonesia": "Terbelah",
+            "jenisWahyu": "Mekah",
+            "ayat": 25
+        },
+        {
+            "nomor": 85,
+            "nama": "Al-Buruj",
+            "namaIndonesia": "Gugusan Bintang",
+            "jenisWahyu": "Mekah",
+            "ayat": 22
+        },
+        {
+            "nomor": 86,
+            "nama": "At-Tariq",
+            "namaIndonesia": "Yang Datang di Malam Hari",
+            "jenisWahyu": "Mekah",
+            "ayat": 17
+        },
+        {
+            "nomor": 87,
+            "nama": "Al-A'la",
+            "namaIndonesia": "Yang Paling Tinggi",
+            "jenisWahyu": "Mekah",
+            "ayat": 19
+        },
+        {
+            "nomor": 88,
+            "nama": "Al-Ghasyiyah",
+            "namaIndonesia": "Hari Pembalasan",
+            "jenisWahyu": "Mekah",
+            "ayat": 26
+        },
+        {
+            "nomor": 89,
+            "nama": "Al-Fajr",
+            "namaIndonesia": "Fajar",
+            "jenisWahyu": "Mekah",
+            "ayat": 30
+        },
+        {
+            "nomor": 90,
+            "nama": "Al-Balad",
+            "namaIndonesia": "Negeri",
+            "jenisWahyu": "Mekah",
+            "ayat": 20
+        },
+        {
+            "nomor": 91,
+            "nama": "Asy-Syams",
+            "namaIndonesia": "Matahari",
+            "jenisWahyu": "Mekah",
+            "ayat": 15
+        },
+        {
+            "nomor": 92,
+            "nama": "Al-Lail",
+            "namaIndonesia": "Malam",
+            "jenisWahyu": "Mekah",
+            "ayat": 21
+        },
+        {
+            "nomor": 93,
+            "nama": "Adh-Dhuha",
+            "namaIndonesia": "Duha",
+            "jenisWahyu": "Mekah",
+            "ayat": 11
+        },
+        {
+            "nomor": 94,
+            "nama": "Al-Insyirah",
+            "namaIndonesia": "Melapangkan",
+            "jenisWahyu": "Mekah",
+            "ayat": 8
+        },
+        {
+            "nomor": 95,
+            "nama": "At-Tin",
+            "namaIndonesia": "Buah Tin",
+            "jenisWahyu": "Mekah",
+            "ayat": 8
+        },
+        {
+            "nomor": 96,
+            "nama": "Al-'Alaq",
+            "namaIndonesia": "Segumpal Darah",
+            "jenisWahyu": "Mekah",
+            "ayat": 19
+        },
+        {
+            "nomor": 97,
+            "nama": "Al-Qadr",
+            "namaIndonesia": "Kemuliaan",
+            "jenisWahyu": "Mekah",
+            "ayat": 5
+        },
+        {
+            "nomor": 98,
+            "nama": "Al-Bayyinah",
+            "namaIndonesia": "Bukti Nyata",
+            "jenisWahyu": "Madinah",
+            "ayat": 8
+        },
+        {
+            "nomor": 99,
+            "nama": "Az-Zalzalah",
+            "namaIndonesia": "Kegoncangan",
+            "jenisWahyu": "Madinah",
+            "ayat": 8
+        },
+        {
+            "nomor": 100,
+            "nama": "Al-'Adiyat",
+            "namaIndonesia": "Kuda Yang Berlari Kencang",
+            "jenisWahyu": "Mekah",
+            "ayat": 11
+        },
+        {
+            "nomor": 101,
+            "nama": "Al-Qari'ah",
+            "namaIndonesia": "Hari Kiamat",
+            "jenisWahyu": "Mekah",
+            "ayat": 11
+        },
+        {
+            "nomor": 102,
+            "nama": "At-Takasur",
+            "namaIndonesia": "Bermegah-Megahan",
+            "jenisWahyu": "Mekah",
+            "ayat": 8
+        },
+        {
+            "nomor": 103,
+            "nama": "Al-'Asr",
+            "namaIndonesia": "Masa",
+            "jenisWahyu": "Mekah",
+            "ayat": 3
+        },
+        {
+            "nomor": 104,
+            "nama": "Al-Humazah",
+            "namaIndonesia": "Pengumpat",
+            "jenisWahyu": "Mekah",
+            "ayat": 9
+        },
+        {
+            "nomor": 105,
+            "nama": "Al-Fil",
+            "namaIndonesia": "Gajah",
+            "jenisWahyu": "Mekah",
+            "ayat": 5
+        },
+        {
+            "nomor": 106,
+            "nama": "Quraisy",
+            "namaIndonesia": "Suku Quraisy",
+            "jenisWahyu": "Mekah",
+            "ayat": 4
+        },
+        {
+            "nomor": 107,
+            "nama": "Al-Ma'un",
+            "namaIndonesia": "Barang Yang Berguna",
+            "jenisWahyu": "Mekah",
+            "ayat": 7
+        },
+        {
+            "nomor": 108,
+            "nama": "Al-Kawthar",
+            "namaIndonesia": "Nikmat yang Berlimpah",
+            "jenisWahyu": "Mekah",
+            "ayat": 3
+        },
+        {
+            "nomor": 109,
+            "nama": "Al-Kafirun",
+            "namaIndonesia": "Orang-Orang Kafir",
+            "jenisWahyu": "Mekah",
+            "ayat": 6
+        },
+        {
+            "nomor": 110,
+            "nama": "An-Nasr",
+            "namaIndonesia": "Pertolongan",
+            "jenisWahyu": "Madinah",
+            "ayat": 3
+        },
+        {
+            "nomor": 111,
+            "nama": "Al-Lahab",
+            "namaIndonesia": "Gejolak Api",
+            "jenisWahyu": "Mekah",
+            "ayat": 5
+        },
+        {
+            "nomor": 112,
+            "nama": "Al-Ikhlas",
+            "namaIndonesia": "Ikhlas",
+            "jenisWahyu": "Mekah",
+            "ayat": 4
+        },
+        {
+            "nomor": 113,
+            "nama": "Al-Falaq",
+            "namaIndonesia": "Fajar",
+            "jenisWahyu": "Mekah",
+            "ayat": 5
+        },
+        {
+            "nomor": 114,
+            "nama": "An-Nas",
+            "namaIndonesia": "Manusia",
+            "jenisWahyu": "Mekah",
+            "ayat": 6
+        }
+    ]
+}
