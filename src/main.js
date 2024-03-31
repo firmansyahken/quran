@@ -4,11 +4,11 @@ import Surah from "./pages/Surah.js"
 
 const routes = {
   "/": {
-    title: "Home",
+    title: "",
     element: Home
   },
   "surah/:id": {
-    title: "Surah",
+    title: "",
     element: Surah
   }
 }

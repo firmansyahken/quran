@@ -10,6 +10,7 @@ export default class Surah {
   async fetchData() {
     const getData = await fetch(`/src/assets/data/${this.uid}.json`);
     const response = await getData.json();
+    document.title = response[`${this.uid}`].name_latin
     return response;
   }
 

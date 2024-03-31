@@ -37,7 +37,7 @@ export default class Router {
         });
     
         if (path) {
-            document.title = path.title ? path.title : "";
+            document.title = path.title ? path.title : document.title;
             document.getElementById("root").innerHTML = await new path.element(path.id).render();
             return;
         }
