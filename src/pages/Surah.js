@@ -25,7 +25,8 @@ export default class Surah {
           surah="${data[`${this.uid}`].name_latin}"
           ayat="${data[`${this.uid}`].text[key]}"
           no="${key}"
-          indonesian="${data[`${this.uid}`].translations['id'].text[key]}"> 
+          indonesian="${data[`${this.uid}`].translations['id'].text[key]}" 
+          tafsir="${data[`${this.uid}`].tafsir['id']['kemenag'].text[key]}"> 
         </ayat-item>`
         )
     );

@@ -12,6 +12,7 @@ class AyatItem extends HTMLElement {
     this.no = "";
     this.ayat = "";
     this.indonesian = "";
+    this.tafsir = "";
     this.copyToClipBoard = this.copyToClipBoard.bind(this);
     this.shareAyat = this.shareAyat.bind(this);
   }
@@ -22,6 +23,7 @@ class AyatItem extends HTMLElement {
     this.no = this.getAttribute("no");
     this.ayat = this.getAttribute("ayat");
     this.indonesian = this.getAttribute("indonesian");
+    this.tafsir = this.getAttribute("tafsir");
     this.render();
   }
 
@@ -52,7 +54,7 @@ class AyatItem extends HTMLElement {
             <p class="indonesian">${this.indonesian}</p>
             <div class="tafsir" data-id="${this.no}">
               <p>Tafsir Kemenag:</p>
-              <p>${this.indonesian}</p>
+              <p>${this.tafsir}</p>
             </div>
             <div class="option">
               <div>
