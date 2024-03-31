@@ -1,13 +1,15 @@
-import { Store } from "../utils/Store";
+import ShareIcon from "../assets/icon/share.svg";
+import CopyIcon from "../assets/icon/copy.svg";
+import { CopyClipBoard } from "../utils/CopyClipboard";
 
 class AyatItem extends HTMLElement {
   constructor() {
     super();
-    this.uid = ""
+    this.uid = "";
     this.no = "";
     this.ayat = "";
     this.indonesian = "";
-    this.saveBookMark = this.saveBookMark.bind(this);
+    this.copyToClipBoard = this.copyToClipBoard.bind(this);
   }
 
   connectedCallback() {
@@ -18,16 +20,9 @@ class AyatItem extends HTMLElement {
     this.render();
   }
 
-  saveBookMark() {
-    let confirmation = confirm(`Ingin menandai Ayat: ${this.no} ini?`)
-    if(confirmation) { 
-      return new Store("bookmark").setStorage({
-        uid: this.uid,
-        no: this.no,
-        ayat: this.ayat,
-        indonesian: this.indonesian 
-      })
-    }
+  copyToClipBoard() {
+    let text = `${this.ayat}\n${this.indonesian}`;
+    CopyClipBoard(text);
   }
 
   render() {
@@ -38,10 +33,14 @@ class AyatItem extends HTMLElement {
               <p class="ayat">${this.ayat}</p>
             </div>
             <p class="indonesian">${this.indonesian}</p>
+            <div class="option">
+                <img id="copy" src="${CopyIcon}" alt="icon"/>
+                <img src="${ShareIcon}" alt="icon"/> 
+            </div>
         </div>
     `;
 
-    this.querySelector(".ayat-item").addEventListener("click", this.saveBookMark)
+    this.querySelector("#copy").addEventListener("click", this.copyToClipBoard);
   }
 }
 

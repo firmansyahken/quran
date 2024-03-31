@@ -1,9 +1,19 @@
 :root {
-  --title-size: 24px;
+  --title-size: 28px;
   --header-size: 20px;
   --body-size: 15px;
   --border-color: rgb(226 232 240);
   --secondary-color: rgb(100 116 139);
+}
+
+@font-face {
+  font-family: 'LPMQ';
+  src: url("./src/assets/font/lpmq.eot");
+  src: url("./src/assets/font/lpmq.eot?#iefix") format('embedded-opentype'),
+    url("./src/assets/font/lpmq.ttf") format('truetype');
+  font-weight: 400;
+  font-weight: normal;
+  font-display: swap;
 }
 
 * {
@@ -50,6 +60,9 @@ body {
 .list-surah {
   padding-bottom: 4rem;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
 }
 
 .list-item {
@@ -85,7 +98,8 @@ body {
 
 .ayat-surah {
   display: grid;
-  row-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 30px;
   padding: 2rem 0;
 }
 
@@ -95,7 +109,7 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 
-.ayat-item div {
+.ayat-item div:nth-child(1) {
   display: flex;
   justify-content: space-between;
   column-gap: 40px;
@@ -106,6 +120,10 @@ body {
   text-align: right;
   font-size: calc(var(--title-size) + 2px);
   margin-bottom: 20px;
+  line-height: 48px;
+  font-family: LPMQ, "Traditional Arabic", Tahoma, sans-serif;
+  font-weight: normal;
+  direction: rtl;
 }
 
 .ayat-item .no {
@@ -117,6 +135,7 @@ body {
   min-width: 24px;
   min-height: 30px;
   color: white;
+  font-weight: bold;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -126,17 +145,28 @@ body {
   font-weight: normal;
 }
 
+.ayat-item .option {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.ayat-item .option img {
+  width: 24px;
+}
+
 .info-surah {
   position: sticky;
   top: 0;
   z-index: 10;
   background-color: white;
   display: grid;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   column-gap: 20px;
-  text-align: center;
   box-sizing: border-box;
 }
 
@@ -146,11 +176,11 @@ body {
 
 .info-surah p:nth-child(2) {
   font-weight: bold;
-  font-size: var(--body-size);
+  text-align: center;
 }
 
 .info-surah div {
-  text-align: center;
+  text-align: right;
 }
 
 .info-surah div small {
@@ -175,7 +205,10 @@ body {
 
 @media (max-width: 600px) {
   :root {
-    --title-size: 22px;
-    --body-size: 13px;
-  } 
+    --title-size: 20px;
+  }
+
+  .list-surah {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
