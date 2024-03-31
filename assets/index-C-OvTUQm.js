@@ -63,7 +63,7 @@ Q.S ${this.surah} : ${this.no}
               <img id="tafsir" data-target="${this.no}" src="${A}" alt="icon"/>
             </div>
         </div>
-    `,this.querySelector("#copy").addEventListener("click",this.copyToClipBoard),this.querySelector("#share").addEventListener("click",this.shareAyat),this.querySelector("#tafsir").addEventListener("click",this.handleTafsir)}}customElements.define("ayat-item",f);class v{constructor(a){this.uid=a,j()}async fetchData(){const e=await(await fetch(`${g}/data/${this.uid}.json`)).json();return document.title=e[`${this.uid}`].name_latin,e}async render(){const a=await this.fetchData();let e="";return Object.keys(a[`${this.uid}`].text).forEach(o=>e+=`
+    `,this.querySelector("#copy").addEventListener("click",this.copyToClipBoard),this.querySelector("#share").addEventListener("click",this.shareAyat),this.querySelector("#tafsir").addEventListener("click",this.handleTafsir)}}customElements.define("ayat-item",f);class v{constructor(a){this.uid=a}async fetchData(){const e=await(await fetch(`${g}/data/${this.uid}.json`)).json();return document.title=e[`${this.uid}`].name_latin,e}async render(){const a=await this.fetchData();j();let e="";return Object.keys(a[`${this.uid}`].text).forEach(o=>e+=`
         <ayat-item 
           uid="${this.uid}"
           surah="${a[`${this.uid}`].name_latin}"
