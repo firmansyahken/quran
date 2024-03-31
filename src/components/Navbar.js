@@ -6,12 +6,12 @@ class Navbar extends HTMLElement {
 
   render() {
     this.innerHTML = `
-            <div class="navbar">
-                <div class="navbar-content">
-                    <h1>Al-Qur'an</h1>
-                </div>
+        <div class="navbar">
+            <div class="navbar-content">
+                <h1>Al-Qur'an</h1>
             </div>
-        `;
+        </div>
+    `;
   }
 }
 
