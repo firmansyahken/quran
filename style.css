@@ -5,6 +5,7 @@
   --primary-color: #D7A951;
   --border-color: rgb(226 232 240);
   --secondary-color: rgb(100 116 139);
+  --gray-color: rgb(229 231 235);
 }
 
 @font-face {
@@ -92,6 +93,7 @@ body {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  border-radius: 7px;
 }
 
 .list-item>div:nth-child(1) {
@@ -164,16 +166,46 @@ body {
   font-weight: normal;
 }
 
+.ayat-item .tafsir {
+  margin: 20px 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: none;
+  font-size: var(--body-size);
+  font-weight: normal;
+  color: white;
+  border-radius: 7px;
+  background-color: var(--primary-color);
+}
+
+.ayat-item .tafsir p:nth-child(1) {
+  padding: 10px 0;
+}
+
+.ayat-item .tafsir.active {
+  display: block;
+}
+
 .ayat-item .option {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   column-gap: 15px;
   padding: 1rem 0;
-  cursor: pointer;
+}
+
+.ayat-item .option div {
+  display: flex;
+  column-gap: 20px;
+}
+
+.ayat-item .option div > img {
+  width: 24px;
 }
 
 .ayat-item .option img {
-  width: 24px;
+  width: 28px;
+  cursor: pointer;
 }
 
 .info-surah {
